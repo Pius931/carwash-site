@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiftwash Carwash</title>
+    <link rel="stylesheet" href="Css folder/Style.css" />
+    <!-- AOS CSS (Animate on scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header data-aos="zoom-in" data-aos-duration="2000">
+      <section class="header">
+        <div class="dark-header">
+          <h1>💧SwiftWash</h1>
+        </div>
+        <h5>Your car, Sparkling clean</h5>
+      </section>
+    </header>
+
+    <!---Services-->
+    <section>
+      <div
+        class="Services"
+        data-aos="fade-up"
+        data-aos-duration="5000"
+        data-aos-offset="400"
+      >
+        <h3>Our Services</h3>
+        <span></span>
+      </div>
+
+      <section class="container">
+        <div
+          class="Exterior"
+          data-aos="zoom-in"
+          data-aos-duration="5000"
+          data-aos-offset="400"
+          data-aos-delay="100"
+        >
+          <p class="soap">🧼</p>
+          <p class="service-title">Exterior Wash</p>
+          <p class="price">₦20,000</p>
+          <button
+            onclick="document.getElementById('bookNow').scrollIntoView({behavior: 'smooth'})"
+          >
+            Book Now
+          </button>
+        </div>
+
+        <div
+          class="fullBody"
+          data-aos="zoom-in"
+          data-aos-duration="5000"
+          data-aos-offset="400"
+          data-aos-delay="100"
+        >
+          <p class="emoji">🧽</p>
+          <p class="body-title">Full body Detail</p>
+          <p class="cost">₦50,000</p>
+          <button
+            onclick="document.getElementById('bookNow').scrollIntoView({behavior: 'smooth'})"
+          >
+            <!--Javascript attribute-->
+            Book Now
+          </button>
+        </div>
+
+        <div
+          class="interior"
+          data-aos="zoom-in"
+          data-aos-duration="5000"
+          data-aos-offset="200"
+          data-aos-delay="100"
+        >
+          <p class="car">🚗</p>
+          <p class="int-title">Interior Vacuum</p>
+          <p class="cost-price">₦30,000</p>
+          <button
+            onclick="document.getElementById('bookNow').scrollIntoView({behavior: 'smooth'})"
+          >
+            Book Now
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <!--Booking Form-->
+
+    <section
+      class="booking"
+      data-aos="fade-up"
+      data-aos-duration="5000"
+      data-aos-delay="100"
+    >
+      <div id="bookNow">
+        <h3>📝 Booking Form</h3>
+        <span></span>
+      </div>
+
+      <form action="" data-aos="slide-left" data-aos-duration="8000">
+        <label for="Name">Name:</label>
+        <input type="text" placeholder="Your Full Name" id="Name" />
+
+        <label for="Car-Type">Car Type:</label>
+        <input type="text" placeholder="e.g Sedan, SUV, Truck" id="Car-Type" />
+
+        <label for="Date">Date:</label>
+        <input type="date" id="Date" />
+
+        <label for="Time">Time:</label>
+        <input type="time" id="Time" />
+
+        <label for="Service-Selected">Service Selected:</label>
+        <select name="Service-Selected" id="Service-Selected">
+          <option value="">--- Select a Service ---</option>
+          <option value="Exterior Wash">Exterior Wash (₦20,000)</option>
+          <option value="Full Body Detail">Full Body Detail (₦50,000)</option>
+          <option value="Interior Vacuum">Interior Vacuum (₦30,000)</option>
+        </select>
+
+        <p id="message"></p>
+
+        <input
+          type="submit"
+          name="submit Booking"
+          id="submit"
+          value="Submit Booking"
+        />
+        <div id="loader" style="display: none">⏳</div>
+      </form>
+    </section>
+
+    <!--Care Section-->
+
+    <section
+      class="care"
+      data-aos="slide-right"
+      data-aos-duration="5000"
+      data-aos-offset="250"
+      data-aos-delay="100"
+    >
+      <div>
+        <h3>Car Care Tips ✨</h3>
+        <span></span>
+      </div>
+
+      <form action="" id="careForm">
+        <h4>Ask a car Care question:</h4>
+
+        <textarea
+          id="Ask"
+          name="Ask"
+          placeholder="e.g How often should i wax my car? Whats the best way to clean my car's interior?"
+          cols="35"
+          rows="8"
+        ></textarea>
+
+        <input type="submit" id="get-tip" value="Get Tip✨" />
+      </form>
+      <div id="responseArea"></div>
+    </section>
+
+    <!--Footer-->
+
+    <footer data-aos="fade-up" data-aos-duration="5000" data-aos-offset="100">
+      &copy;2025 Swiftwash. All rights reserved.
+      <p>Clean Cars, Happy Customers!</p>
+    </footer>
+
+    <script src="Js folder/swift.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-in-out", // smoother transition
+      });
+    </script>
+  </body>
+</html>

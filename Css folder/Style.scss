@@ -1,0 +1,496 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f3f4f6;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+.header {
+  background: #1d4ed8;
+  color: white;
+  padding: 0.5em;
+
+  .dark-header {
+    background: #1e40af;
+    border-radius: 0.5em;
+    margin-bottom: -2em;
+    margin-top: -1em;
+
+    h1 {
+      font-size: 3em;
+    }
+  }
+
+  h5 {
+    font-size: 1.3em;
+    font-weight: lighter;
+    color: #d5dce9;
+  }
+}
+
+/* SERVICES SECTION */
+
+.Services {
+  h3 {
+    font-size: 2em;
+    color: #1d4ed8;
+  }
+
+  span {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #3b82f6;
+    margin: 0.5rem auto;
+    border-radius: 3px;
+    margin-top: -1.5em;
+    margin-bottom: 3em;
+  }
+}
+
+.container:hover {
+  :hover {
+    transform: scale(1.03);
+  }
+}
+
+// Exterior
+
+.Exterior {
+  margin: 0 0.7em;
+  display: block;
+  background: white;
+  padding-bottom: 2em;
+  margin-bottom: 3em;
+  border-radius: 2em;
+  box-shadow: 0 4px 12px rgba(29, 78, 216);
+
+  .soap {
+    font-size: 4em;
+    margin-bottom: 0;
+  }
+
+  .service-title {
+    color: #111827;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: -0.5em;
+  }
+
+  .price {
+    color: #2563eb;
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-bottom: 0.6em;
+  }
+
+  button {
+    color: white;
+    background: #2563eb;
+    padding: 1em;
+    border-radius: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+  }
+}
+
+//fullBody
+
+.fullBody {
+  margin: 0 0.7em;
+  display: block;
+  background: white;
+  padding-bottom: 2em;
+  margin-bottom: 3em;
+  border-radius: 2em;
+  box-shadow: 0 4px 12px rgba(29, 78, 216);
+
+  .emoji {
+    font-size: 4em;
+    margin-bottom: 0;
+  }
+
+  .body-title {
+    color: #111827;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: -0.5em;
+  }
+
+  .cost {
+    color: #2563eb;
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-bottom: 0.6em;
+  }
+
+  button {
+    color: white;
+    background: #2563eb;
+    padding: 1em;
+    border-radius: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+  }
+}
+
+//Interior
+
+.interior {
+  margin: 0 0.7em;
+  display: block;
+  background: white;
+  padding-bottom: 2em;
+  margin-bottom: 3em;
+  border-radius: 2em;
+  box-shadow: 0 4px 12px rgba(29, 78, 216);
+
+  .car {
+    font-size: 4em;
+    margin-bottom: 0;
+  }
+
+  .int-title {
+    color: #111827;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: -0.5em;
+  }
+
+  .cost-price {
+    color: #2563eb;
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-bottom: 0.6em;
+  }
+
+  button {
+    color: white;
+    background: #2563eb;
+    padding: 1em;
+    border-radius: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+  }
+}
+
+/* BOOKING SECTION */
+
+.booking {
+  background: #eff6ff;
+  padding-bottom: 3em;
+
+  h3 {
+    font-size: 2.2em;
+    color: #1e40af;
+  }
+
+  span {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #3b82f6;
+    margin: 0.5rem auto;
+    border-radius: 3px;
+    margin-top: -1.5em;
+    margin-bottom: 3em;
+  }
+
+  form {
+    background: white;
+    margin: 0 0.8em;
+    display: block;
+    border-radius: 1em;
+    box-shadow: 0 4px 12px rgba(29, 78, 216);
+    padding-top: 1em;
+    padding-bottom: 2em;
+
+    label,
+    input {
+      display: block;
+      text-align: left;
+      padding: 0.4em;
+      width: 80%;
+      border-radius: 0.5em;
+      margin-left: 1.2em;
+      color: #111827;
+    }
+
+    label {
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+
+    input {
+      margin-bottom: 1em;
+      font-size: 1.2em;
+    }
+
+    select {
+      width: 80%;
+      padding: 0.8em;
+      font-size: 0.8em;
+      text-align: left;
+      margin-bottom: 3em;
+    }
+
+    #message {
+      display: block;
+    }
+
+    #submit {
+      color: white;
+      background: #2563eb;
+      padding: 1em;
+      border-radius: 2em;
+      font-size: 1em;
+      font-weight: 700;
+      text-align: center;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+
+/* CAR CARE TIPS */
+
+.care {
+  display: block;
+
+  h3 {
+    font-size: 2.2em;
+    color: #1e40af;
+  }
+
+  span {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #3b82f6;
+    margin: 0.5rem auto;
+    border-radius: 3px;
+    margin-top: -1.5em;
+    margin-bottom: 3em;
+  }
+
+  form {
+    display: block;
+    background: white;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin: 0 0.5em;
+    border-radius: 1em;
+    box-shadow: 0 4px 12px rgba(29, 78, 216);
+    margin-bottom: 10em;
+
+    h4 {
+      text-align: center;
+      color: #111827;
+      font-size: 1.2em;
+      font-weight: 500;
+      margin-bottom: 0.5em;
+      margin-right: 1em;
+    }
+
+    textarea {
+      border-radius: 1em;
+      margin-left: 1.3em;
+      padding-top: 2em;
+      margin-bottom: 2em;
+    }
+
+    #get-tip {
+      color: white;
+      background: green;
+      padding: 1em;
+      border-radius: 2em;
+      font-size: 1em;
+      font-weight: 700;
+      text-align: center;
+      border: none;
+      cursor: pointer;
+      width: 200px;
+      margin: 0 auto;
+    }
+  }
+}
+
+/* FOOTER */
+footer {
+  background: #182133;
+  color: rgb(156, 156, 156);
+  font-weight: 600;
+  padding: 2em;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) //Tablet {
+  .dark-header {
+    width: 50%;
+    margin-left: 12em;
+  }
+
+  //services
+
+  .container {
+    display: flex;
+    flex-wrap: wrap; // Allows third card to start on next line
+    gap: 1em;
+
+    .Exterior {
+      width: 45%;
+    }
+
+    .fullBody {
+      width: 45%;
+    }
+
+    .interior {
+      width: 45%;
+    }
+  }
+
+  // booking section
+
+  .booking {
+    margin: 4em 0 4em 0;
+    padding-top: 2em;
+    padding-bottom: 4em;
+
+    form {
+      width: 80%;
+      margin-left: 6em;
+
+      select {
+        float: left;
+        margin-left: 2em;
+        border: 1px solid black;
+      }
+
+      #submit {
+        max-width: 200px;
+        margin-left: 12em;
+      }
+    }
+  }
+
+  // care section
+
+  .care {
+    //  display: inline-block;
+
+    form {
+      margin-left: 1em;
+
+      h4 {
+        text-align: left;
+        margin-left: 4.5em;
+        font-weight: 500;
+      }
+
+      textarea {
+        margin-left: 1em;
+        width: 80%;
+      }
+
+      #get-tip {
+        margin-right: 3em;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) //Desktop {
+  .dark-header {
+    margin: 0 auto;
+    width: fit-content;
+    padding-right: 1em;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+
+    .Exterior,
+    .fullBody,
+    .interior {
+      width: 28%;
+      margin: 0 auto;
+    }
+  }
+
+  .booking {
+    form {
+      margin: 0 auto; // centers the div
+      width: 50%;
+
+      label,
+      input {
+        margin: 0 auto;
+      }
+
+      input {
+        margin-bottom: 1em;
+      }
+
+      #submit {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .care {
+    margin-bottom: 6em;
+
+    form {
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
+}
+
+@media (min-width: 1800px) {
+  .booking {
+    form {
+      margin: 0 auto; // centers the div
+      width: 30%;
+
+      label,
+      input {
+        margin: 0 auto;
+      }
+
+      input {
+        margin-bottom: 1em;
+      }
+
+      #submit {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .care {
+    margin-bottom: 6em;
+
+    form {
+      margin: 0 auto;
+      width: 40%;
+    }
+  }
+}
+
+//margin: 0 auto;
+//       width: fit-content;

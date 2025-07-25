@@ -1,0 +1,400 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f3f4f6;
+  text-align: center;
+}
+
+.header {
+  background: #1d4ed8;
+  color: white;
+  padding: 0.5em;
+}
+.header .dark-header {
+  background: #1e40af;
+  border-radius: 0.5em;
+  margin-bottom: -2em;
+  margin-top: -1em;
+}
+.header .dark-header h1 {
+  font-size: 3em;
+}
+.header h5 {
+  font-size: 1.3em;
+  font-weight: lighter;
+  color: #d5dce9;
+}
+
+/* SERVICES SECTION */
+.Services h3 {
+  font-size: 2em;
+  color: #1d4ed8;
+}
+.Services span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #3b82f6;
+  margin: 0.5rem auto;
+  border-radius: 3px;
+  margin-top: -1.5em;
+  margin-bottom: 3em;
+}
+
+.container:hover :hover {
+  transform: scale(1.03);
+}
+
+.Exterior {
+  margin: 0 0.7em;
+  display: block;
+  background: white;
+  padding-bottom: 2em;
+  margin-bottom: 3em;
+  border-radius: 2em;
+  box-shadow: 0 4px 12px rgb(29, 78, 216);
+}
+.Exterior .soap {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+.Exterior .service-title {
+  color: #111827;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: -0.5em;
+}
+.Exterior .price {
+  color: #2563eb;
+  font-size: 2.3em;
+  font-weight: 600;
+  margin-bottom: 0.6em;
+}
+.Exterior button {
+  color: white;
+  background: #2563eb;
+  padding: 1em;
+  border-radius: 2em;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
+.fullBody {
+  margin: 0 0.7em;
+  display: block;
+  background: white;
+  padding-bottom: 2em;
+  margin-bottom: 3em;
+  border-radius: 2em;
+  box-shadow: 0 4px 12px rgb(29, 78, 216);
+}
+.fullBody .emoji {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+.fullBody .body-title {
+  color: #111827;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: -0.5em;
+}
+.fullBody .cost {
+  color: #2563eb;
+  font-size: 2.3em;
+  font-weight: 600;
+  margin-bottom: 0.6em;
+}
+.fullBody button {
+  color: white;
+  background: #2563eb;
+  padding: 1em;
+  border-radius: 2em;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
+.interior {
+  margin: 0 0.7em;
+  display: block;
+  background: white;
+  padding-bottom: 2em;
+  margin-bottom: 3em;
+  border-radius: 2em;
+  box-shadow: 0 4px 12px rgb(29, 78, 216);
+}
+.interior .car {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+.interior .int-title {
+  color: #111827;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: -0.5em;
+}
+.interior .cost-price {
+  color: #2563eb;
+  font-size: 2.3em;
+  font-weight: 600;
+  margin-bottom: 0.6em;
+}
+.interior button {
+  color: white;
+  background: #2563eb;
+  padding: 1em;
+  border-radius: 2em;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
+/* BOOKING SECTION */
+.booking {
+  background: #eff6ff;
+  padding-bottom: 3em;
+}
+.booking h3 {
+  font-size: 2.2em;
+  color: #1e40af;
+}
+.booking span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #3b82f6;
+  margin: 0.5rem auto;
+  border-radius: 3px;
+  margin-top: -1.5em;
+  margin-bottom: 3em;
+}
+.booking form {
+  background: white;
+  margin: 0 0.8em;
+  display: block;
+  border-radius: 1em;
+  box-shadow: 0 4px 12px rgb(29, 78, 216);
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.booking form label,
+.booking form input {
+  display: block;
+  text-align: left;
+  padding: 0.4em;
+  width: 80%;
+  border-radius: 0.5em;
+  margin-left: 1.2em;
+  color: #111827;
+}
+.booking form label {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.booking form input {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+.booking form select {
+  width: 80%;
+  padding: 0.8em;
+  font-size: 0.8em;
+  text-align: left;
+  margin-bottom: 3em;
+}
+.booking form #submit {
+  color: white;
+  background: #2563eb;
+  padding: 1em;
+  border-radius: 2em;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+/* CAR CARE TIPS */
+.care {
+  display: block;
+}
+.care h3 {
+  font-size: 2.2em;
+  color: #1e40af;
+}
+.care span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #3b82f6;
+  margin: 0.5rem auto;
+  border-radius: 3px;
+  margin-top: -1.5em;
+  margin-bottom: 3em;
+}
+.care form {
+  display: block;
+  background: white;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  margin: 0 0.5em;
+  border-radius: 1em;
+  box-shadow: 0 4px 12px rgb(29, 78, 216);
+  margin-bottom: 10em;
+}
+.care form h4 {
+  text-align: center;
+  color: #111827;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+}
+.care form textarea {
+  border-radius: 1em;
+  margin-left: 1.3em;
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
+.care form #get-tip {
+  color: white;
+  background: green;
+  padding: 1em;
+  border-radius: 2em;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+footer {
+  background: #182133;
+  color: rgb(156, 156, 156);
+  font-weight: 600;
+  padding: 2em;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+  .dark-header {
+    width: 50%;
+    margin-left: 12em;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  .container .Exterior {
+    width: 45%;
+  }
+  .container .fullBody {
+    width: 45%;
+  }
+  .container .interior {
+    width: 45%;
+  }
+  .booking {
+    margin: 4em 0 4em 0;
+    padding-top: 2em;
+    padding-bottom: 4em;
+  }
+  .booking form {
+    width: 80%;
+    margin-left: 6em;
+  }
+  .booking form select {
+    float: left;
+    margin-left: 2em;
+    border: 1px solid black;
+  }
+  .booking form #submit {
+    max-width: 200px;
+    margin-left: 12em;
+  }
+  .care form {
+    margin-left: 1em;
+  }
+  .care form h4 {
+    text-align: left;
+    margin-left: 4.5em;
+    font-weight: 500;
+  }
+  .care form textarea {
+    margin-left: 1em;
+    width: 80%;
+  }
+  .care form #get-tip {
+    margin-right: 3em;
+  }
+}
+@media (min-width: 1024px) {
+  .dark-header {
+    margin: 0 auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-right: 1em;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .container .Exterior, .container .fullBody, .container .interior {
+    width: 28%;
+    margin: 0 auto;
+  }
+  .booking form {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .booking form label, .booking form input {
+    margin: 0 auto;
+  }
+  .booking form input {
+    margin-bottom: 1em;
+  }
+  .booking form #submit {
+    margin: 0 auto;
+  }
+  .care {
+    margin-bottom: 6em;
+  }
+  .care form {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+@media (min-width: 1800px) {
+  .booking form {
+    margin: 0 auto;
+    width: 30%;
+  }
+  .booking form label, .booking form input {
+    margin: 0 auto;
+  }
+  .booking form input {
+    margin-bottom: 1em;
+  }
+  .booking form #submit {
+    margin: 0 auto;
+  }
+  .care {
+    margin-bottom: 6em;
+  }
+  .care form {
+    margin: 0 auto;
+    width: 40%;
+  }
+}/*# sourceMappingURL=Style.css.map */
